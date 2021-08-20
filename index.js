@@ -59,11 +59,11 @@ function reverseArrayInPlace(array){
     let output ={}
     let answer = []
     for(i=0;i<temp.length;i++){
-        if (output[temp[i]]){
+        if (output[temp[i].toLowerCase()]){
             output[temp[i]] +=1;
         }
     else{
-        output[temp[i]]=1
+        output[temp[i].toLowerCase()]=1
     }}
     var temp2 = Object.entries(output)
     for (j=0;j<temp2.length;j++){
