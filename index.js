@@ -89,7 +89,7 @@ function reverseArrayInPlace(array){
     return;
   }
   
-  TOHanoi(2, "C", "A", "B");
+  TOHanoi(4, "C", "A", "B");
 
 
        /*************Question 6  *****************/
